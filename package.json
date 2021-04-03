@@ -1,7 +1,8 @@
 {
   "name": "root",
   "scripts": {
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
