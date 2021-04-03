@@ -1,0 +1,33 @@
+{
+  "name": "klzz-common-log",
+  "version": "1.0.0",
+  "description": "console.log",
+  "keywords": [
+    "log"
+  ],
+  "author": "chenmeng <meng.chen04@happy-seed.com>",
+  "homepage": "https://github.com/fe-room/lerna-packages#readme",
+  "license": "MIT",
+  "main": "lib/klzz-common-log.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe-room/lerna-packages.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/fe-room/lerna-packages/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "loadsh": "^0.0.4"
+  }
+}

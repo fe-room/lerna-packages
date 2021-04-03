@@ -12,5 +12,8 @@
     "tencent"
   ],
   "author": "chenmeng",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
