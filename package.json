@@ -5,15 +5,15 @@
     "commit": "git-cz"
   },
   "devDependencies": {
-    "commitlint": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
+    "commitlint": "^12.1.1",
     "git-cz": "^4.7.6",
-    "lerna": "^4.0.0",
-    "husky": "^6.0.0"
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
     }
   }
 }
