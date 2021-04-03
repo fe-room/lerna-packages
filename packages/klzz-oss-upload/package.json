@@ -1,0 +1,16 @@
+{
+  "name": "klzz-oss-upload",
+  "version": "1.0.0",
+  "description": "cloud oss serve",
+  "main": "index.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oss",
+    "ali",
+    "tencent"
+  ],
+  "author": "chenmeng",
+  "license": "ISC"
+}
