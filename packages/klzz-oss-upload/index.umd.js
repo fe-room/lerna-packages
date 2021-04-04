@@ -5,7 +5,8 @@
 }(this, (function (exports, require$$0, require$$1, require$$4, util$1, urlutil, http, https, require$$1$1, path, querystring$1, assert, os, fs$1, child) { 'use strict';
 
 	function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
-
+	var common_log = require('klzz-common-log')
+	common_log()
 	var require$$0__default = /*#__PURE__*/_interopDefaultLegacy(require$$0);
 	var require$$1__default = /*#__PURE__*/_interopDefaultLegacy(require$$1);
 	var require$$4__default = /*#__PURE__*/_interopDefaultLegacy(require$$4);

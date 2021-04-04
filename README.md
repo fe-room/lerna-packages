@@ -36,3 +36,7 @@ lerna clean
 ```
 lerna publish    package.json 中 "private": true 是不会被发布到npm
 ```
+10. 添加klzz-common-log依赖到klzz-oss-upload中
+```
+lerna add klzz-common-log --scope=klzz-oss-upload
+```
